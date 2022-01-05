@@ -1,0 +1,32 @@
+$buttons: #e9e9e9ea;
+$buttons-hover: #aeaeb8;
+$operators: #f8a240;
+$operators-hover: #f3960a;
+
+.Button {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  background-color: $buttons;
+  margin: 1.5px;
+  border: none;
+
+  &:hover {
+    background-color: $buttons-hover;
+  }
+
+  &:active {
+    background-color: #97979b;
+  }
+}
+.operator {
+  background-color: $operators;
+
+  &:hover {
+    background-color: $operators-hover;
+  }
+
+  &:active {
+    background-color: #ff8c00;
+  }
+}
