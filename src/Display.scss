@@ -9,16 +9,9 @@
     font-size: 1rem;
     word-break: break-all;
     font-weight: 200;
-
-    @media (max-width: 280px) {
-      font-size: 1rem;
-    }
   }
 
   .bottomValue {
     font-weight: 300;
-    @media (max-width: 280px) {
-      font-size: 1.5rem;
-    }
   }
 }
