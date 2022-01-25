@@ -1,15 +1,15 @@
 import React from 'react';
 import '../Layout.scss';
 
-export default function Layout({top, middle}) {
+export default function Layout({display, buttons}) {
     return(
         <div className='Layout'>
             <div className='container'>
-                <div className='top'>
-                    {top}
+                <div className='display'>
+                    {display}
                 </div>
-                <div className='middle'>
-                    {middle}
+                <div className='buttons'>
+                    {buttons}
                 </div>
             </div>
         </div>

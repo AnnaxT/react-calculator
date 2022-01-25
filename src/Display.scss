@@ -1,3 +1,5 @@
+$top-values: rgb(255, 165, 0);
+
 .Display {
   display: flex;
   flex-direction: column;
@@ -5,13 +7,20 @@
   padding: 20px;
   text-align: right;
 
+  @media (max-width: 1000px) and (orientation: landscape) {
+    padding: 5px 10px;
+  }
+
   .topValues {
-    font-size: 1rem;
+    font-size: 1.125rem;
     word-break: break-all;
-    font-weight: 200;
+    font-weight: 400;
+    color: $top-values;
   }
 
   .bottomValue {
     font-weight: 300;
+    @media (max-width: 1000px) and (orientation: landscape) {
+    }
   }
 }

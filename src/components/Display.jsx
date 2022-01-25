@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Display.scss';
 
-export default function Display({ topValues, bottomValue }) {
+export default function Display({ topValues, bottomValue,id }) {
 
     // change font size
 
@@ -14,9 +14,9 @@ export default function Display({ topValues, bottomValue }) {
     if (bn > 17)fontSize = '1.25rem'
     
     return(
-<div className="Display">
+<div className="Display" >
     <div className="topValues"> {topValues} </div>
-    <div className="bottomValue" style = {{ fontSize }}> {bottomValue} </div>
+    <div className="bottomValue" id={id} style = {{ fontSize }}> {bottomValue} </div>
 </div>
     );
 }
