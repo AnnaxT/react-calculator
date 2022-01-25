@@ -7,11 +7,11 @@ export default function Display({ topValues, bottomValue,id }) {
 
     let fontSize, bn = bottomValue.length;
 
-    if (bn <=8) fontSize = '3rem';
-    if (bn > 8 ) fontSize = '2.75rem';
+    if (bn <=8) fontSize = '2.5rem';
+    if (bn > 8 ) fontSize = '2.25rem';
     if (bn > 10) fontSize = '2rem'; 
     if (bn >13 ) fontSize = '1.5rem';
-    if (bn > 17)fontSize = '1.25rem'
+    if (bn > 17)fontSize = '1.125rem'
     
     return(
 <div className="Display" >
