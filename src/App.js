@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Button from './components/Button.jsx';
 import Display from './components/Display.jsx';
 import Layout from './components/Layout';
-import './App.css';
+// import './App.css';
 
 const DIGIT = 'DIGIT';
 const OPERATOR = 'OPERATOR';
